@@ -1,5 +1,5 @@
-let a = 5
-let b = 5
+let a = 5;
+let b = 5;
 let z = a + b
 console.log(z)
 
@@ -13,3 +13,7 @@ console.log(z)
 // Can contain digits after the first character
 // Cannot be a reserved keyword (let, const, if, etc.)
 // Are case-sensitive
+
+
+// When separated by semicolons, multiple statements on one line are allowed:
+a = 5; b = 6; c = a + b;
