@@ -36,3 +36,40 @@ let x3 = 7
 let z2 = Math.pow(x3,2) // this is also used for exponentional  "matho.pow(x,value(2))"
 console.log(z2)
 
+
+
+
+
+// The &&= Operator
+// The Logical AND assignment operator is used between two values.
+// If the first value is true, the second value is assigned.
+// Logical AND Assignment Examples
+let x4 = true;
+let y3 = x4 &&= 10;
+console.log(y3)
+
+
+// The ||= Operator
+// The Logical OR assignment operator is used between two values.
+// If the first value is false, the second value is assigned.
+// Logical OR Assignment Examples
+let x5 = false;
+let y5= x ||= 10;
+console.log(y5)
+
+
+// The ??= Operator
+// The Nullish coalescing assignment operator is used between two values.
+// If the first value is undefined or null, the second value is assigned.
+// Nullish Coalescing Assignment Examples
+let x6;
+x6 ??= 10;
+console.log(x6)
+
+
+// The Spread (...) Operator
+// The ... operator splits iterables into individual elements.
+let text = "12345";
+let min = Math.min(...text);
+let max = Math.max(...text);
+console.log(min,max)
