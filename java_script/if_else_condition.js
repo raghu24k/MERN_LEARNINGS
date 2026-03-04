@@ -76,9 +76,25 @@ else{
 
 console.log("-------------------------------------------------------------------")
 // Task 6
-year = 2023
+year = 2024
 if (year % 4 == 0 && year % 400 == 0){
     console.log(year + ' is a leap year')
 }else{
     console.log(year + ' its not a leap year')
 }
+
+console.log("-------------------------------------------------------------------")
+// Task 7
+let marks = 33
+if (marks < 40){
+    console.log('you are FAILD')
+}else{
+    console.log('you are PASSED')
+}
+
+console.log("-------------------------------------------------------------------")
+// Task 8
+let grade = 88
+if (grade >= 90){
+    console.log('Grade A')
+}else if(grade)
