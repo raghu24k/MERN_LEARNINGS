@@ -94,7 +94,22 @@ if (marks < 40){
 
 console.log("-------------------------------------------------------------------")
 // Task 8
-let grade = 88
+let grade = 49
 if (grade >= 90){
     console.log('Grade A')
-}else if(grade)
+}else if(grade>= 70){
+    console.log('Grade B')
+}else if(grade >= 50 ){
+    console.log('Grade C')
+}else{
+    console.log("Fail")
+}
+
+console.log("-------------------------------------------------------------------")
+// Task 9
+let chcek = 5
+if (chcek % 5 == 0 && chcek % 11 == 0){
+    console.log(chcek+' the number is divisible by both')
+}else{
+    console.log('its not divisible')
+}
