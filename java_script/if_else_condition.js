@@ -60,23 +60,25 @@ if (num1 > num2){
 }
 
 console.log("-------------------------------------------------------------------")
-// // Task 5
-// let num11 = 12
-// let num22 = 45
-// let num33 = 453
-// if (num11 > num22 && num33){
-//     console.log(num11,'is greater')
-// }
-// if(num22 > num11 && num33){
-//     console.log(num22,'is greater')
-// }else{
-//     console.log(num33,'is greater ')
-// }
-
+// Task 5
 let num11 = 12
 let num22 = 45
-let num33 = 453
+let num33 = 452
+if (num11 > num22 && num11 > num33){
+    console.log(num11,"is largest")
+}
+else if (num22 > num11 && num22 > num33){
+    console.log(num22,"is largest")
+}
+else{
+    console.log(num33,"is largest")
+}
 
-let largest = Math.max(num11, num22, num33)
-
-console.log(largest, "is the largest")
+console.log("-------------------------------------------------------------------")
+// Task 6
+year = 2023
+if (year % 4 == 0 && year % 400 == 0){
+    console.log(year + ' is a leap year')
+}else{
+    console.log(year + ' its not a leap year')
+}
