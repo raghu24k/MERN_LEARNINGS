@@ -76,11 +76,17 @@ else{
 
 console.log("-------------------------------------------------------------------")
 // Task 6
-year = 2024
-if (year % 4 == 0 && year % 400 == 0){
-    console.log(year + ' is a leap year')
+// year = 2024
+// if (year % 4 == 0 && year % 400 == 0){
+//     console.log(year + ' is a leap year')
+// }else{
+//     console.log(year + ' its not a leap year')
+// }
+let year = 2024
+if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+    console.log(year + " is a leap year")
 }else{
-    console.log(year + ' its not a leap year')
+    console.log(year + " is not a leap year")
 }
 
 console.log("-------------------------------------------------------------------")
@@ -112,4 +118,27 @@ if (chcek % 5 == 0 && chcek % 11 == 0){
     console.log(chcek+' the number is divisible by both')
 }else{
     console.log('its not divisible')
+}
+
+console.log("-------------------------------------------------------------------")
+// Task 10
+// let n = a
+// if (typeof n == "string"){
+//     console.log('its a string')
+// }else if(typeof n != 'string'){
+//     console.log('its a integer')
+// }
+// else{
+//     console.log('special charcter')
+// }
+let n = 'a'
+
+if(n >= 'a' && n <= 'z' || n >= 'A' && n <= 'Z'){
+    console.log("Alphabet")
+}
+else if(n >= '0' && n <= '9'){
+    console.log("Digit")
+}
+else{
+    console.log("Special Character")
 }
