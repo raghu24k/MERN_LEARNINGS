@@ -48,3 +48,35 @@ if (age<18){
 else{
     console.log("you are eligible")
 }
+
+console.log("-------------------------------------------------------------------")
+// Task 4
+let num1 = 12
+let num2 = 45
+if (num1 > num2){
+    console.log(num1,'is greater')
+}else{
+    console.log(num2,'is greater')
+}
+
+console.log("-------------------------------------------------------------------")
+// // Task 5
+// let num11 = 12
+// let num22 = 45
+// let num33 = 453
+// if (num11 > num22 && num33){
+//     console.log(num11,'is greater')
+// }
+// if(num22 > num11 && num33){
+//     console.log(num22,'is greater')
+// }else{
+//     console.log(num33,'is greater ')
+// }
+
+let num11 = 12
+let num22 = 45
+let num33 = 453
+
+let largest = Math.max(num11, num22, num33)
+
+console.log(largest, "is the largest")
