@@ -12,9 +12,9 @@ def StringChallenge(s):
     for x in s:
         if x.isalpha():
             x = chr(ord(x) + 1)
-        print(x)
+        return x
 
-StringChallenge("AEG")
+StringChallenge("AEGsfs")
 
 # StringChallagne('RAGHU')
 
