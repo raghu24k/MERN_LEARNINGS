@@ -149,7 +149,7 @@ console.log('-------------------------------------------------------------------
 
 // What is Ternary Operator?
 // Ternary operator is a one-line shortcut for if...else.
-let agee = 20
+let agee = 2
 console.log(agee >= 18 ? "Eligible" : "Not eligible")
 
 console.log('---------------------------------------------------------------------------')
@@ -167,3 +167,8 @@ console.log('-------------------------------------------------------------------
 let aa = 3
 let bb = aa<0 ? "Negtive" : "Positive"
 console.log(bb)
+
+console.log('---------------------------------------------------------------------------')
+// Task3
+let v = agee>18 ? "Eligible":"Not Eligible"
+console.log(v)
