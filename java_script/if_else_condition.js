@@ -172,3 +172,10 @@ console.log('-------------------------------------------------------------------
 // Task3
 let v = agee>18 ? "Eligible":"Not Eligible"
 console.log(v)
+
+console.log('---------------------------------------------------------------------------')
+// Task 4
+let num_a = 122
+let num_b = 342
+let result = num_a>num_b ? num_a+" Greater": num_b+" Greater"
+console.log(result)
