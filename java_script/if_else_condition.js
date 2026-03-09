@@ -179,3 +179,48 @@ let num_a = 122
 let num_b = 342
 let result = num_a>num_b ? num_a+" Greater": num_b+" Greater"
 console.log(result)
+
+console.log('---------------------------------------------------------------------------')
+// Task 5
+let marks_a = 45
+console.log(marks_a>=40? "Pass": "Fail")
+
+
+
+console.log('---------------------------------------------------------------------------')
+
+// Switch cases learnings
+
+let n1 = 8
+switch(n1){
+    case 1:
+    console.log('Monday')
+    break
+
+    case 2:
+    console.log("Tuesday")
+    break
+
+    case 3:
+    console.log('Wednesday')
+    break
+
+    case 4:
+    console.log("Thuresday")
+    break
+
+    case 5:
+    console.log('Friday')
+    break
+
+    case 6:
+    console.log("Saturday")
+    break
+
+    case 7:
+    console.log('Sunday')
+    break
+
+    default:
+        console.log('Invailid Input')
+}
