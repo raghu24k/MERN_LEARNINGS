@@ -142,3 +142,28 @@ else if(n >= '0' && n <= '9'){
 else{
     console.log("Special Character")
 }
+
+console.log('---------------------------------------------------------------------------')
+
+
+
+// What is Ternary Operator?
+// Ternary operator is a one-line shortcut for if...else.
+let agee = 20
+console.log(agee >= 18 ? "Eligible" : "Not eligible")
+
+console.log('---------------------------------------------------------------------------')
+
+// So ternary is basically:
+// condition ? true_value : false_value
+
+// Task 1
+let a = 13
+let b = a%2==0 ? "Even": "Odd"
+console.log(b)
+
+console.log('---------------------------------------------------------------------------')
+// Task 2
+let aa = 3
+let bb = aa<0 ? "Negtive" : "Positive"
+console.log(bb)
