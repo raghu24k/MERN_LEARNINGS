@@ -287,7 +287,7 @@ switch(month){
 console.log('---------------------------------------------------------------------------')
  // Task 3
 
-let login = 3
+let login = 4
 switch(login){
     case 1:
     console.log('Login success')
@@ -299,6 +299,7 @@ switch(login){
 
     case 3:
     console.log("Exit")
+    break
 
     default:
     console.log("Incorrect Input")
